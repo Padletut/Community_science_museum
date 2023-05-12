@@ -129,6 +129,7 @@ nav a {
 nav li:hover {
     color: #e2dfe1;
     background: rgba(112, 109, 124, 0.08);
+    transition: all .4s ease-in;
 }
 
 nav .separator {
@@ -201,7 +202,10 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    row-gap: 53px;
+}
+
+#main_wrapper__index_toptext {
+    text-align: center;
 }
 
 .main_wrapper__image {
@@ -242,7 +246,7 @@ main {
     text-align: left;
     letter-spacing: 0.5px;
     width: 312px;
-    margin: 35px 0 65px 0;
+    margin: 35px 0 10px 0;
 }
 
 .main_grid {
@@ -615,6 +619,7 @@ footer {
 
     .second_navigation li:hover {
         background: #5f05c7;
+        transition: all .4s ease-in;
     }
 
     .second_navigation .active {
@@ -671,7 +676,6 @@ footer {
         align-self: flex-start;
         text-align: left;
         margin-top: 56px;
-        margin-bottom: 90px;
     }
 
     .main_wrapper__text {
@@ -714,10 +718,6 @@ footer {
     .main_grid {
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 94px;
-    }
-
-    #main_wrapper__index_toptext {
-        text-align: center;
     }
 
 
