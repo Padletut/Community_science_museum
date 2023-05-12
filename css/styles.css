@@ -1,5 +1,5 @@
 :root {
-    --title-large_font: 22px 'Open Sans', sans-serif;
+    --title-large_font: 24px 'Open Sans', sans-serif;
     --title-medium_font: 20px 'Open Sans', sans-serif;
     --title-small_font: 18px 'Open Sans', sans-serif;
     --head_line_medium_font: 26px 'Open Sans', sans-serif;
@@ -227,7 +227,7 @@ main {
 
 .main_wrapper h1 {
     font: var(--title-large_font);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 31px;
     text-align: center;
     letter-spacing: 0.25px;
@@ -235,7 +235,12 @@ main {
 
 }
 
-.main_wrapper_text h3 {
+.main_wrapper h3 {
+    font: var(--label-large_font);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
     margin-bottom: 30px;
 }
 
