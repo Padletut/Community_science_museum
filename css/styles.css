@@ -206,6 +206,7 @@ main {
 
 #main_wrapper__index_toptext {
     text-align: center;
+    margin-top: 0;
 }
 
 .main_wrapper__image {
@@ -229,7 +230,7 @@ main {
     line-height: 31px;
     text-align: center;
     letter-spacing: 0.25px;
-    margin-top: 35px;
+    margin: 35px 0 60px 0;
 
 }
 
