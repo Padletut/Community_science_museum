@@ -227,6 +227,7 @@ main {
 
 .main_wrapper h1 {
     font: var(--title-large_font);
+    font-style: normal;
     font-weight: 600;
     line-height: 31px;
     text-align: center;
