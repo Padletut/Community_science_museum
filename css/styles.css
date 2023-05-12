@@ -202,11 +202,12 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 #main_wrapper__index_toptext {
     text-align: center;
-    margin-top: 0;
+    margin: 0;
 }
 
 .main_wrapper__image {
@@ -247,7 +248,7 @@ main {
     text-align: left;
     letter-spacing: 0.5px;
     width: 312px;
-    margin: 35px 0 10px 0;
+    margin: 15px 0 100px 0;
 }
 
 .main_grid {
@@ -676,7 +677,6 @@ footer {
     .main_wrapper p {
         align-self: flex-start;
         text-align: left;
-        margin-top: 56px;
     }
 
     .main_wrapper__text {
