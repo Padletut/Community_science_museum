@@ -109,20 +109,21 @@ nav li {
     margin: 0 25px 0 25px;
     font-style: normal;
     letter-spacing: 0.1px;
-    padding: 10px 1%;
-    color: #CAC5C9;
     cursor: default;
     text-transform: uppercase;
 }
 
 nav a {
-    color: #4A454E;
+    display: flex;
+    justify-content: center;
+    color: #CAC5C9;
     font: var(--title-small_font);
     font-style: normal;
     font-weight: 600;
     line-height: 25px;
     letter-spacing: 0.25px;
     text-decoration: none;
+    padding: 10px 0;
 }
 
 nav li:hover {
@@ -136,7 +137,7 @@ nav .separator {
     padding: 0;
 }
 
-nav .active {
+nav .active a {
     color: #7B38C8;
 }
 
@@ -565,7 +566,7 @@ footer {
         justify-content: center;
     }
 
-    nav .active {
+    nav .active a {
         color: #7B38C8;
         border-bottom: 5px solid;
         border-color: #7B38C8;
@@ -575,8 +576,11 @@ footer {
         display: none;
     }
 
-    nav li {
+    nav a {
         color: #4A454E;
+    }
+
+    nav li {
         width: 15em;
         text-align: center;
         cursor: pointer;
@@ -585,10 +589,6 @@ footer {
     nav li:hover {
         color: #1D1B1E;
         background: rgba(28, 27, 31, 0.08);
-    }
-
-    nav .active:hover {
-        color: #7B38C8;
     }
 
     .hamburger-icon {
@@ -631,18 +631,25 @@ footer {
         min-width: max-content;
     }
 
+    .second_navigation a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        padding: 10px 25px;
+        border-radius: 100px;
+    }
+
     .second_navigation li {
         display: block;
         margin: 0;
         font: var(--label-large_font);
         font-style: normal;
         letter-spacing: 0.1px;
-        color: white;
         text-decoration: none;
         cursor: default;
         background: #7B38C8;
         border-radius: 100px;
-        padding: 10px 25px;
         text-align: center;
         cursor: pointer;
     }
