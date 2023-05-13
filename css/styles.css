@@ -8,6 +8,7 @@
     --body_large_font: 16px 'Noto Sans', sans-serif;
     --display_medium_font: 36px 'Open Sans', sans-serif;
     --label-large_font: 20px 'Noto Sans', sans-serif;
+    --purple_color: #622CA1;
 }
 
 * {
@@ -139,11 +140,11 @@ nav .separator {
 }
 
 nav .active a {
-    color: #7B38C8;
+    color: var(--purple_color);
 }
 
 nav .active:hover {
-    color: #7B38C8;
+    color: var(--purple_color);
 }
 
 
@@ -156,8 +157,8 @@ nav .active:hover {
 
 .hamburger-icon {
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     cursor: pointer;
     border: 2px solid white;
     filter: blur(0.4px);
@@ -169,7 +170,7 @@ nav .active:hover {
 
 .hamburger-icon i {
     padding: 6px;
-    font-size: 1.1em;
+    font-size: 1.9em;
     cursor: pointer;
 }
 
@@ -377,7 +378,7 @@ main {
     line-height: 28px;
     letter-spacing: 0.15px;
     text-decoration: none;
-    color: #7B38C8;
+    color: var(--purple_color);
 }
 
 .card_button {
@@ -389,7 +390,7 @@ main {
 .card_button a:hover {
     transition: all .2s ease-in;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-    background: #7B38C8;
+    background: #622CA1;
 }
 
 .card_button a {
@@ -453,7 +454,7 @@ main {
 footer {
     display: flex;
     flex-direction: column;
-    background: #7B38C8;
+    background: #622CA1;
     box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.2);
     padding: 0 24px 30px 24px;
     bottom: 0;
@@ -579,9 +580,9 @@ footer {
     }
 
     nav .active a {
-        color: #7B38C8;
+        color: var(--purple_color);
         border-bottom: 5px solid;
-        border-color: #7B38C8;
+        border-color: var(--purple_color);
     }
 
     nav .separator {
@@ -661,7 +662,7 @@ footer {
         letter-spacing: 0.1px;
         text-decoration: none;
         cursor: default;
-        background: #7B38C8;
+        background: #622CA1;
         border-radius: 100px;
         text-align: center;
         cursor: pointer;
