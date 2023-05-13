@@ -140,7 +140,7 @@ nav .separator {
 }
 
 nav .active a {
-    color: var(--purple_color);
+    color: #EEDBFF;
 }
 
 nav .active:hover {
