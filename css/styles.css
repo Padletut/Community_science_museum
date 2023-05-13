@@ -204,6 +204,7 @@ main {
     align-items: center;
     width: 100%;
     margin-bottom: 30px;
+    overflow: clip;
 }
 
 #main_wrapper__index_toptext {
