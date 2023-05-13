@@ -186,6 +186,10 @@ nav .active:hover {
     transform: translateX(-102%);
 }
 
+#menu-checkbox:checked~header {
+    overflow: visible;
+}
+
 /* ---------------------
    Main
    --------------------- */
